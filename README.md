@@ -6,20 +6,35 @@
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 
-A Python-based poultry farm management system for recording egg production, analyzing farm performance, managing users, and generating professional reports.
+
+
+A Python-based poultry farm management and analytics application designed to record egg production, monitor farm performance, analyse operational efficiency, manage users, and generate professional reports.
+---
+
+## ✨ Key Features
+
+### 🔐 Login & Authentication
+
+- Role-based login authentication
+- Three login attempts
+- Multiple users
+- User roles and access levels
+
 
 
 ---
 
-## Features
+## 🐔 Farm Management
 
-### 🔐 Login System
-- Secure login
-- Three login attempts
-- Multiple users
-- User roles
+- Add Record
+- View Records
+- Search Records
+- Edit Records
+- Delete Records
 
-### 👥 User Roles
+---
+
+## Reports### 👥 User Roles
 
 **Administrator**
 - Add users
@@ -35,20 +50,7 @@ A Python-based poultry farm management system for recording egg production, anal
 - Login
 - Use the farm system
 
----
-
-## Farm Features
-
-- Add Record
-- View Records
-- Search Records
-- Edit Records
-- Delete Records
-
----
-
-## Reports
-
+## 📊 Analytics & Reports
 - Production Summary
 - Farm Dashboard
 - Business Analytics
@@ -57,14 +59,14 @@ A Python-based poultry farm management system for recording egg production, anal
 
 ---
 
-## Export
+## 📄 Reports & Export
 
 - Excel Report
 - PDF Report
 
 ---
 
-## Technologies
+## 🛠️ Technologies
 
 - Python
 - Pandas
@@ -74,53 +76,75 @@ A Python-based poultry farm management system for recording egg production, anal
 
 ---
 
-## Files
+## 🚀 How to Run
 
-- smart_egg_system_clean.py
-- records.csv
-- users.csv
+1. Install Python 3.x.
+2. Clone or download this repository.
+3. Open the project folder in VS Code.
+4. Install the required Python packages.
+
+Run:
+
+`pip install pandas matplotlib openpyxl reportlab customtkinter`
+
+5. Start the application.
+
+`python smart_egg_system_v2.py`
+
+> Note: The application uses local CSV files for storing farm records and user account data. Login credentials are not included in this public repository.
+
+
+## 📁 Project Files
+
+- `smart_egg_system_clean.py` — Main Python application
+- `smart_egg_system_v2.py` — Version 2 GUI application
+- `records.csv` — Production records
+- `Egg_Production_Report.xlsx` — Excel report
+- `Egg_Production_Report.pdf` — PDF report
+- `Screenshots/` — Application screenshots
+- `.gitignore` — Files excluded from version control
 
 ---
-## Login System
+## 🔒 Authentication & Security
 
-The application includes role-based authentication with Administrator,
-Manager, and Employee access levels.
+The application includes role-based authentication with Administrator, Manager, and Employee access levels.
 
-For security reasons, login credentials are not included in this repository.
+Login credentials and user account data are not included in this public repository.
 # 📸 Screenshots
 
 ## 🔐 Login Screen
 
-![Login Screen](screenshots/login.png)
+![Login Screen](Screenshots/login.png)
 
 ---
 
 ## 🏠 Main Menu
 
-![Main Menu](screenshots/menu.png)
+![Main Menu](Screenshots/Main%20Menu.png)
 
 ---
 
 ## 📊 Farm Dashboard
 
-![Farm Dashboard](screenshots/dashboard.png)
+![Farm Dashboard](Screenshots/Farm%20Dashboard.png)
 
 ---
 
 ## 📈 Business Analytics
 
-![Business Analytics](screenshots/analytics.png)
+## 📈 Business Analytics
 
+![Business Analytics](Screenshots/Analytics.png)
 ---
 
 ## 👥 User Management
 
-![User Management](screenshots/users.png)
+![User Management](Screenshots/User%20Management.png)
 
 ---
 
-## Developer
+## 👩‍💻 Developer
 
 Developed by **Ntombizodwa Mnisi**
 
-Version **1.0**
+**Version:** 1.0
